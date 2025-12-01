@@ -1,0 +1,11 @@
+from employee import employee_info
+
+def test_employee_info():
+    excepted_output = (
+        "Employee Name:Alice\n"
+        "Employee ID: E1001\n"
+        "Department : IT\n"
+        "Salary:55000"
+    )
+
+    assert employee_info("Alice", "E1001", "IT", 55000) == expected_output
