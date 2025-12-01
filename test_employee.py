@@ -1,7 +1,7 @@
 from employee import employee_info
 
 def test_employee_info():
-    excepted_output = (
+    expected_output = (
         "Employee Name:Alice\n"
         "Employee ID: E1001\n"
         "Department : IT\n"
